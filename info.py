@@ -40,9 +40,9 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information *
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://nithish7uy:EU4G8ws46ZQr17tF@cluster0.glvel.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0"
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Cluster0collection')
+DATABASE_URI = environ.get('DATABASE_URI', "glvel.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # LOG CHANNELS *
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1002599639831))
@@ -191,6 +191,7 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 # 🥰  Thank you for giving me credit @LazyDeveloperr  🥰
 # for any error please contact me -> telegram@LazyDeveloperr or insta @LazyDeveloperr 
 # rip paid developers 🤣 - >> No need to buy paid source code while @LazyDeveloperr is here 😍😍
+
 
 
 
