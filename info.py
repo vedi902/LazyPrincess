@@ -26,7 +26,7 @@ BOT_TOKEN = environ['fuck']
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://graph.org/file/56f737939b18bbd5de531-34a8e46506b7518db7.jpg')).split()
+PICS = (environ.get('PICS', 'https://envs.sh/ifL.jpg')).split()
 PRIME_LOGO = (environ.get('PRIME_LOGO', 'https://graph.org/file/50f65e0439f9eb4afd958-b2efe796a9a525f293.jpg'))
 
 # Admins, Channels & Users *
@@ -42,7 +42,7 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 # MongoDB information *
 DATABASE_URI = environ.get('DATABASE_URI', "glvel.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Cluster0Collection')
 
 # LOG CHANNELS *
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1002599639831))
@@ -191,6 +191,7 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 # 🥰  Thank you for giving me credit @LazyDeveloperr  🥰
 # for any error please contact me -> telegram@LazyDeveloperr or insta @LazyDeveloperr 
 # rip paid developers 🤣 - >> No need to buy paid source code while @LazyDeveloperr is here 😍😍
+
 
 
 
