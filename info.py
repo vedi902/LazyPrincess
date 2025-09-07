@@ -19,8 +19,8 @@ def is_enabled(value, default):
 
 # Bot information *
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ['28638866'])
-API_HASH = environ['a748074bea1e6ace57394aceb194d292']
+API_ID = int(environ['27027538'])
+API_HASH = environ['a043e6cc3ab0663e08a0f4ba3a7eeafd']
 BOT_TOKEN = environ['fuck']
 
 # Bot settings
@@ -41,8 +41,8 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information *
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://nithish7uy:EU4G8ws46ZQr17tF@cluster0.glvel.mongodb.net/?retryWrites=true&w=majority&appName=")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0"
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Cluster0collection')
 
 # LOG CHANNELS *
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1002599639831))
@@ -191,4 +191,5 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 # 🥰  Thank you for giving me credit @LazyDeveloperr  🥰
 # for any error please contact me -> telegram@LazyDeveloperr or insta @LazyDeveloperr 
 # rip paid developers 🤣 - >> No need to buy paid source code while @LazyDeveloperr is here 😍😍
+
 
